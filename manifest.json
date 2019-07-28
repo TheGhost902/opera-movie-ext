@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Opera LOL",
+	"description": "some body once toll me...",
+	"version": "1.0",
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": ["tabs", "storage", "unlimitedStorage"],
+	"browser_action": {
+		"default_icon": "media/icon-128.png",
+        "default_title": "Go to Dev.Opera!",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "media/icon-16.png",
+        "19": "media/icon-19.png",
+        "48": "media/icon-48.png",
+        "128": "media/icon-128.png"
+    }
+}
